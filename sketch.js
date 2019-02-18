@@ -7,8 +7,8 @@ let flappy;
 function setup() {
     createCanvas(400, 600);
     bg = loadImage('mountain.jpg')
-    bird = new Bird();
 
+    bird = new Bird();
     pipes.push(new Pipe());
 }
 
